@@ -1,3 +1,30 @@
+/* type */
 body {
-  background-color: red;
+  background-color: slategray;
+}
+header p {
+  text-align: center;
+  font-weight: bold;
+}
+h1 {
+  border-bottom: black 2px double;
+  text-align: center;
+}
+/* class */
+.head-img {
+  position: relative;
+  left: 17em;
+  top: .5em;
+  right: 17em;
+  border-style: double;
+  border-color: #000;
+  border-width: thick;
+}
+.note {
+  text-align: center;
+  padding-bottom: 1em;
+  border: black .25em solid;
+  padding-bottom: .25em;
+  width: 75%;
+  margin-bottom: 1em;
 }
