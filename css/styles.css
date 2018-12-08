@@ -13,7 +13,7 @@ h1 {
 ul {
   padding: 0;
   margin: 0;
-  list-type: none;
+  list-style: none;
 }
 header p ul {
   display: inline;
@@ -27,6 +27,12 @@ section {
     padding-top: 1em;
 }
 /* class */
+.main-nav {
+  text-align: center;
+}
+.list-nav {
+  display: inline-block;
+}
 .head-img {
   position: relative;
   display: block;
