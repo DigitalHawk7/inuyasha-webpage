@@ -1,6 +1,6 @@
 /* type */
 body {
-  background-color: slategray;
+  background-color: lightslategray;
 }
 header p {
   text-align: center;
@@ -10,12 +10,28 @@ h1 {
   border-bottom: black 2px double;
   text-align: center;
 }
+ul {
+  padding: 0;
+  margin: 0;
+  list-type: none;
+}
+header p ul {
+  display: inline;
+}
+div {
+  border: .27em black solid;
+  padding-bottom: 1em;
+  border-radius: 60%;
+}
+section {
+    padding-top: 1em;
+}
 /* class */
 .head-img {
   position: relative;
-  left: 17em;
-  top: .5em;
-  right: 17em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-style: double;
   border-color: #000;
   border-width: thick;
@@ -23,8 +39,32 @@ h1 {
 .note {
   text-align: center;
   padding-bottom: 1em;
-  border: black .25em solid;
+  border: black .15em solid;
   padding-bottom: .25em;
+  padding-top: .25em;
   width: 75%;
   margin-bottom: 1em;
+}
+.character-names,
+.other-char {
+  display: inline;
+  text-align: center;
+  text-decoration: underline;
+  /*border: solid .25em black;*/
+}
+/*.main-char {
+  border: black .15em solid;
+  width: 20%;
+}*/
+.characters {
+  text-align: center;
+  text-decoration: underline;
+}
+.char-description,
+.other-char-desc {
+  text-align: center;
+}
+.other {
+  border: .15em black solid;
+  padding-left: .25em;
 }
