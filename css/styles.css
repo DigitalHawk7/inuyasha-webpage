@@ -1,9 +1,9 @@
 /* type */
 body {
-  background-color: lightslategray;
+  background-color: lightgrey;
   font-family: fantasy, serif, sans-serif;
   font-size: 1.25em;
-  border-bottom: .1em black solid;
+  line-height: 1.5;
 }
 header p {
   text-align: center;
@@ -16,9 +16,6 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-li {
-  font-style: italic;
 }
 header p ul {
   display: inline;
@@ -35,6 +32,8 @@ section {
 }
 footer {
   font-size: .6em;
+  margin-top: 3em;
+  border-top: .2em black solid;
 }
 /* class */
 .main-nav {
